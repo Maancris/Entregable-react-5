@@ -229,12 +229,14 @@ h6 {
         height: 50px;
         margin: 0;
         padding-left: 10px;
-        font-size: 15px;
+        font-size: 12px;
+    
 
     }
 
     .paragraph {
-       font-size: 13px;
+       font-size: 12px;
+       
       
     }
 
