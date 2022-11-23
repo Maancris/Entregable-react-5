@@ -7,7 +7,7 @@ body {
 
 h1 {
     font-size: 50px;
-    margin: 0;
+    margin: 0 0 15px;
 }
 
 .pageInitial {
@@ -177,50 +177,77 @@ h6 {
     gap: 1rem;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 560px) {
     .pokeDetail {
-        background: red;
-        height: 100vh;
+       height: 100vh;
+    }
+
+    .welcome {
+        font-size: 12px;
+    }
+
+    .pokeName {
+        width: 15rem;
+        height: 7.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .selectPokedex {
+        height: 30px;
+    }
+
+    .buttonPokedex {
+        height: 30px;
+    }
+
+    .inputPokedex{
+        height: 30px;
     }
 
     .dad {
         display: flex;
-        flex-direction: column;    
+        flex-direction: column;
     }
 
     h1 {
         font-size: 20px;
         margin: 0;
     }
-    
-.size {
-    width: 200px;
-    height: 50px;
-    margin: 0;
-    padding-left: 10px ;
-}
 
-.abiliti {
-    width: 200px;
-    height: 50px;
-    margin: 0;
-    padding-left: 10px ;
-    
-}
+    .size {
+        width: 200px;
+        height: 50px;
+        margin: 0;
+        padding-left: 10px;
+    }
 
-.paragraph {
-    width: 10rem;
-    text-align: left;
-}
+    .abiliti {
+        width: 200px;
+        height: 50px;
+        margin: 0;
+        padding-left: 10px;
 
-h1{
-    font-size: 25px;
-    margin-bottom: 1rem;
-}
+    }
 
-.pokemonFirst {
-    width: 250px;
-}
+    .paragraph {
+        width: 10rem;
+        text-align: left;
+    }
 
+    h1 {
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+
+    .pokemonFirst {
+        width: 250px;
+    }
+    .pokeTemplate {
+        width: 100px;
+        font-size: 15px;
+        text-align: center;
+    }
 
 }

@@ -38,7 +38,7 @@ const Pokedex = () => {
     return (
         <div className='pokedex'>
             <h1> Pokedex </h1>
-            <p> Welcome {pokename}, here you can favorite pokemon </p>
+            <p className='welcome'> Welcome {pokename}, here you can favorite pokemon </p>
             <div className='pokeName'>
                 <input
                     className='inputPokedex'
